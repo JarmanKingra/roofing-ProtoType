@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import styles from "./Navbar.module.css";
+import Image from "next/image";
 
 const links = [
   ["Services", "services"],
@@ -27,13 +28,21 @@ export default function Navbar({ business }) {
           onClick={() => setOpen(false)}
           aria-label={`${business.name} home`}
         >
-          <span className={styles.logo} aria-hidden="true">
-            {logoLetter}
-          </span>
+          {/* <span  aria-hidden="true"> */}
+            <Image
+              // src="/roofinglogo.png"
+              src="/brandLogo2.png"
+              width={105}
+              height={40}
+              alt="Picture of the author"
+              color="green"
+              className={styles.brandLogo}
+            />
+          {/* </span> */}
 
           <span className={styles.brandText}>
             <strong>{business.name}</strong>
-            <small>{business.category}</small>
+            {/* <small>{business.category}</small> */}
           </span>
         </a>
 
@@ -48,11 +57,7 @@ export default function Navbar({ business }) {
           </a>
 
           {links.map(([label, id]) => (
-            <a
-              key={id}
-              href={`#${id}`}
-              onClick={() => setOpen(false)}
-            >
+            <a key={id} href={`#${id}`} onClick={() => setOpen(false)}>
               {label}
             </a>
           ))}
@@ -74,16 +79,11 @@ export default function Navbar({ business }) {
             <span className={styles.ctaArrow}>→</span>
           </a>
           {business.contact?.phone && (
-            <a
-              className={styles.phone}
-              href={`tel:${business.contact.phone}`}
-            >
+            <a className={styles.phone} href={`tel:${business.contact.phone}`}>
               <span className={styles.phoneLabel}>Call us</span>
               <strong>{business.contact.phone}</strong>
             </a>
           )}
-
-          
 
           <button
             className={`${styles.menu} ${open ? styles.menuOpen : ""}`}

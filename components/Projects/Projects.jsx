@@ -6,7 +6,7 @@ export default function Projects({ commons }) {
     <section className={styles.section} id="projects">
       <div className={styles.container}>
         <div className="sectionIntro">
-          <span>Recent work</span>
+          <span className={styles.recentWork}>Recent work</span>
           <h2>Projects that show the standard we work to.</h2>
           <p>
             Use real project photography here when preparing a client-specific

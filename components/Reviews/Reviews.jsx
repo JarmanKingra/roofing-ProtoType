@@ -163,7 +163,7 @@ export default function Reviews({ business, commons }) {
           </div>
         )}
 
-        <div className={styles.footer}>
+        {/* <div className={styles.footer}>
           <span className={styles.googleG}>G</span>
 
           <span>
@@ -172,7 +172,7 @@ export default function Reviews({ business, commons }) {
           </span>
 
           <a href="#reviews">See the current Google profile.</a>
-        </div>
+        </div> */}
       </div>
     </section>
   );

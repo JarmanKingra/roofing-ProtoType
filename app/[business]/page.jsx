@@ -3,10 +3,7 @@ import businesses from "@/data/businesses";
 import { commons } from "@/data/businesses";
 import Navbar from "@/components/Navbar/Navbar";
 import Hero from "@/components/Hero/Hero";
-import TrustBar from "@/components/TrustBar/TrustBar";
-import QuoteForm from "@/components/QuoteForm/QuoteForm";
 import Services from "@/components/Services/Services";
-import About from "@/components/About/About";
 import Team from "@/components/Team/Team";
 import Reviews from "@/components/Reviews/Reviews";
 import Projects from "@/components/Projects/Projects";
@@ -53,7 +50,7 @@ export default async function BusinessPage({ params }) {
       <main>
         <Hero business={business} commons={commons}/>
         <Reviews business={business} commons={commons}/>
-        <Team commons={commons}/>
+        <Team business={business} commons={commons}/>
         <Services commons={commons}/>
         <Projects commons={commons}/>
         <WhyChooseUs commons={commons}/>

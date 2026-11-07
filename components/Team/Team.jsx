@@ -1,21 +1,22 @@
 import Image from "next/image";
 import styles from "./Team.module.css";
 
-export default function Team({commons }) {
+export default function Team({commons, business }) {
   if (!commons.team?.length) return null;
 
   const [featuredMember] = commons.team;
+  const [team] = business.team;
 
   return (
     <section className={styles.section} id="team">
       <div className={styles.container}>
         <div className={styles.featuredCard}>
           <div className={styles.featuredImage}>
-            <Image
-              src={featuredMember.image}
+            <img
+              src={team.image}
               alt={`${featuredMember.name}, ${featuredMember.role}`}
-              fill
-              sizes="(max-width: 699px) 100vw, 320px"
+              // fill
+              // sizes="(max-width: 699px) 100vw, 320px"
             />
           </div>
 
@@ -25,9 +26,9 @@ export default function Team({commons }) {
             </span>
 
             <h2>
-              {featuredMember.name}.
+              {team.name}.
               <br />
-              {featuredMember.headline || "People you can count on."}
+              {/* {featuredMember.headline || "People you can count on."} */}
             </h2>
 
             {featuredMember.bio && (

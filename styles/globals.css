@@ -1,24 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Edu+NSW+ACT+Cursive:wght@400..700&family=Forum&family=Yuyu&display=swap');
+
 :root {
-  /* --color-primary: var(--business-primary, #17233d);
-  --color-primary-dark: var(--business-primary-dark, #0d1729);
-  --color-primary-soft: #edf1f7;
-  --color-accent: var(--business-accent, #c82d35);
-  --color-accent-dark: color-mix(in srgb, var(--color-accent), #000 15%);
-  --color-accent-light: #ffd6d6;
-  --color-accent-soft: color-mix(in srgb, var(--color-accent), #fff 88%);
-  --color-text: #1b2738;
-  --color-text-muted: #68768a;
-  --color-background: #fff;
-  --color-surface: #f5f7fa;
-  --color-border: #dfe4ea;
-  --color-success: #23845a;
-  --container-width: 1180px;
-  --radius-sm: 8px;
-  --radius-md: 16px;
-  --radius-lg: 24px;
-  --shadow-sm: 0 4px 18px rgba(18, 32, 52, 0.06);
-  --shadow-md: 0 12px 35px rgba(18, 32, 52, 0.1);
-  --shadow-lg: 0 24px 70px rgba(18, 32, 52, 0.15); */
   --color-primary: var(--business-primary, #18392B);
 --color-primary-dark: var(--business-primary-dark, #0F261D);
 --color-primary-soft: #EAF2ED;
@@ -59,7 +41,10 @@ body {
   margin: 0;
   background: var(--color-background);
   color: var(--color-text);
-  font-family: "Verdana", "Helvetica", "Arial", sans-serif;
+  /* font-family: "Verdana", "Helvetica", "Arial", sans-serif; */
+ font-family: "Forum", serif;
+  font-weight: 400;
+  font-style: normal;
   -webkit-font-smoothing: antialiased;
 }
 a {
@@ -76,7 +61,7 @@ textarea {
 }
 .sectionIntro > span {
   color: var(--color-accent);
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 900;
   text-transform: uppercase;
   letter-spacing: 0.13em;

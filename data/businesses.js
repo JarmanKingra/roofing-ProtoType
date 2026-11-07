@@ -16,7 +16,7 @@ const commons = {
   reviewCount: 96,
   yearsInBusiness: 11,
   trustBadges: ["Licensed technicians", "Locally owned"],
-  eyebrow: "Comfort service for Austin homes",
+  eyebrow: "Comfort service for your home",
   headline: "Reliable roofing, built to protect what matters most.",
 
   subheadline:
@@ -59,148 +59,50 @@ const commons = {
       image: founderImage,
     },
   ],
-  reviews: [
-    {
-      name: "Daniel K.",
-      location: "Austin, TX",
-      date: "June 2026",
-      text: "They arrived on time, found the issue quickly, and explained the repair before doing anything.",
-      rating: 5,
-    },
-    {
-      name: "Laura P.",
-      location: "Pflugerville, TX",
-      date: "May 2026",
-      text: "Professional from scheduling to cleanup. Our AC was back to normal quickly.",
-      rating: 5,
-    },
-    {
-      name: "Daniel K.",
-      location: "Austin, TX",
-      date: "June 2026",
-      text: "They arrived on time, found the issue quickly, and explained the repair before doing anything.",
-      rating: 5,
-    },
-    {
-      name: "Laura P.",
-      location: "Pflugerville, TX",
-      date: "May 2026",
-      text: "Professional from scheduling to cleanup. Our AC was back to normal quickly.",
-      rating: 5,
-    },
-    {
-      name: "Daniel K.",
-      location: "Austin, TX",
-      date: "June 2026",
-      text: "They arrived on time, found the issue quickly, and explained the repair before doing anything.",
-      rating: 5,
-    },
-    {
-      name: "Laura P.",
-      location: "Pflugerville, TX",
-      date: "May 2026",
-      text: "Professional from scheduling to cleanup. Our AC was back to normal quickly.",
-      rating: 5,
-    },
-    {
-      name: "Daniel K.",
-      location: "Austin, TX",
-      date: "June 2026",
-      text: "They arrived on time, found the issue quickly, and explained the repair before doing anything.",
-      rating: 5,
-    },
-    {
-      name: "Laura P.",
-      location: "Pflugerville, TX",
-      date: "May 2026",
-      text: "Professional from scheduling to cleanup. Our AC was back to normal quickly.",
-      rating: 5,
-    },
-    {
-      name: "Daniel K.",
-      location: "Austin, TX",
-      date: "June 2026",
-      text: "They arrived on time, found the issue quickly, and explained the repair before doing anything.",
-      rating: 5,
-    },
-    {
-      name: "Laura P.",
-      location: "Pflugerville, TX",
-      date: "May 2026",
-      text: "Professional from scheduling to cleanup. Our AC was back to normal quickly.",
-      rating: 5,
-    },
-    {
-      name: "Daniel K.",
-      location: "Austin, TX",
-      date: "June 2026",
-      text: "They arrived on time, found the issue quickly, and explained the repair before doing anything.",
-      rating: 5,
-    },
-    {
-      name: "Laura P.",
-      location: "Pflugerville, TX",
-      date: "May 2026",
-      text: "Professional from scheduling to cleanup. Our AC was back to normal quickly.",
-      rating: 5,
-    },
-    {
-      name: "Daniel K.",
-      location: "Austin, TX",
-      date: "June 2026",
-      text: "They arrived on time, found the issue quickly, and explained the repair before doing anything.",
-      rating: 5,
-    },
-    {
-      name: "Laura P.",
-      location: "Pflugerville, TX",
-      date: "May 2026",
-      text: "Professional from scheduling to cleanup. Our AC was back to normal quickly.",
-      rating: 5,
-    },
-    {
-      name: "Daniel K.",
-      location: "Austin, TX",
-      date: "June 2026",
-      text: "They arrived on time, found the issue quickly, and explained the repair before doing anything.",
-      rating: 5,
-    },
-    {
-      name: "Laura P.",
-      location: "Pflugerville, TX",
-      date: "May 2026",
-      text: "Professional from scheduling to cleanup. Our AC was back to normal quickly.",
-      rating: 5,
-    },
-    {
-      name: "Daniel K.",
-      location: "Austin, TX",
-      date: "June 2026",
-      text: "They arrived on time, found the issue quickly, and explained the repair before doing anything.",
-      rating: 5,
-    },
-    {
-      name: "Laura P.",
-      location: "Pflugerville, TX",
-      date: "May 2026",
-      text: "Professional from scheduling to cleanup. Our AC was back to normal quickly.",
-      rating: 5,
-    },
-    {
-      name: "Daniel K.",
-      location: "Austin, TX",
-      date: "June 2026",
-      text: "They arrived on time, found the issue quickly, and explained the repair before doing anything.",
-      rating: 5,
-    },
-    {
-      name: "Laura P.",
-      location: "Pflugerville, TX",
-      date: "May 2026",
-      text: "Professional from scheduling to cleanup. Our AC was back to normal quickly.",
-      rating: 5,
-    },
-  ],
+ reviews: [
+  {
+    name: "Daniel K.",
+    location: "Bristol, UK",
+    date: "June 2026",
+    text: "They arrived on time, found the roof leak quickly, and explained the repair options before starting any work.",
+    rating: 5,
+  },
+  {
+    name: "Laura P.",
+    location: "Bath, Somerset",
+    date: "May 2026",
+    text: "Professional from initial consultation to final site cleanup. Our slate roof repair was completed seamlessly.",
+    rating: 5,
+  },
+  {
+    name: "Oliver S.",
+    location: "Manchester, Greater Manchester",
+    date: "July 2026",
+    text: "Outstanding full roof installation. The team worked efficiently, kept everything tidy, and the quality is top-tier.",
+    rating: 5,
+  },
+  {
+    name: "Emma W.",
+    location: "Leeds, West Yorkshire",
+    date: "August 2026",
+    text: "Punctual, friendly, and very meticulous with the tile repairs. No more damp issues after the heavy rain.",
+    rating: 5,
+  },
+  {
+    name: "James T.",
+    location: "Edinburgh, Scotland",
+    date: "September 2026",
+    text: "Superb roofing service. Diagnosed the chimney flashing leak in twenty minutes and sorted it on the spot.",
+    rating: 5,
+  },
+  {
+    name: "Sophie H.",
+    location: "Birmingham, West Midlands",
+    date: "October 2026",
+    text: "Brilliant installation work on our flat roof extension. The crew was polite, professional, and thorough throughout.",
+    rating: 5,
+  },
+],
   projects: [
     {
       title: "Complete Roof Replacement",
@@ -335,150 +237,24 @@ const commons = {
 };
 
 const businesses = {
-  "mikes-hvac": {
-    name: "Mike's HVAC",
-    slug: "mikes-hvac",
-    category: "Roofing",
-    location: "Austin, TX",
-    colors: { primary: "#17324d", primaryDark: "#102438", accent: "#d46b2f" },
-    description:
-      "Mike’s HVAC provides residential heating and cooling service with a focus on dependable repairs, clear explanations, and long-term comfort.",
-    cta: { primary: "Request Service", secondary: "Call Now" },
-    contact: {
-      phone: "(512) 555-0188",
-      email: "service@mikes-hvac.example",
-      address: "Austin, TX",
-    },
-  },
   "4-roofs": {
-    name: "4 Roofs",
+    name: "4 Roofs - Roofing",
     slug: "4-roofs",
     category: "Roofing",
     location: "Austin, TX",
-    colors: { primary: "#183B56", primaryDark: "#102A3C", accent: "#D97732" },
+    team: [
+    {
+      name: "James Carter",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl_hu6vwgejswp_4AFdxe4na0DzQvs9zUy12p-wiAPWQ&s=10",
+    },
+  ],
     description:
-      "4 Roofs provides residential and commercial roofing services across Central Texas and the Houston region, with more than 40 years of combined experience and solutions including shingle, metal, tile, flat roofing, and gutter services.",
+      "4 Roofs provides residential and commercial roofing services across United Kingdom, with more than 40 years of combined experience.",
     cta: { primary: "Get a Free Quote", secondary: "Call Now" },
     contact: {
       phone: "(512) 520-5884",
       email: "contact@4roofstx.com",
       address: "8002 Research Blvd, Suite B, Austin, TX 78758",
-    },
-  },
-  "reliance-roofing": {
-    name: "Reliance Roofing",
-    slug: "reliance-roofing",
-    category: "Roofing",
-    location: "Austin, TX",
-
-    colors: {
-      primary: "#1F3A4A",
-      primaryDark: "#132832",
-      accent: "#D97732",
-    },
-
-    description:
-      "Reliance Roofing is a family-owned roofing and restoration company serving Central Texas with residential and commercial roofing, storm restoration, repairs, and complete re-roofing solutions.",
-
-    cta: {
-      primary: "Get a Free Inspection",
-      secondary: "Call Now",
-    },
-
-    contact: {
-      phone: "(512) 709-0676",
-      email: "Ben@RelianceTx.com",
-      address: "701 Tillery St. Suite 12, Austin, TX 78702",
-    },
-  },
-  "texas-tough-roofing": {
-    name: "Texas Tough Roofing",
-    slug: "texas-tough-roofing",
-    category: "Roofing",
-    location: "Houston, TX",
-    colors: { primary: "#183B56", primaryDark: "#102A3C", accent: "#D97732" },
-    description:
-      "Texas Tough Roofing provides roofing, guttering, and exterior painting services for homeowners in the Houston area, with roof installation, repair, and replacement for metal, shingle, and asphalt roofing.",
-    cta: { primary: "Get a Free Quote", secondary: "Call Now" },
-    contact: {
-      phone: "(832) 890-3564",
-      email: "texastoughroofing@gmail.com",
-      address: "Houston, TX",
-    },
-  },
-  "whitmans-contracting-roofing": {
-    name: "Whitmans Contracting & Roofing",
-    slug: "whitmans-contracting-roofing",
-    category: "Roofing",
-    location: "Houston, TX",
-    colors: { primary: "#183B56", primaryDark: "#102A3C", accent: "#D97732" },
-    description:
-      "Whitmans Contracting & Roofing is a family-owned and operated company providing residential and commercial roofing, contracting, and restoration services throughout Texas, with more than 45 years of industry experience.",
-    cta: { primary: "Get a Free Estimate", secondary: "Call Now" },
-    contact: {
-      phone: "713-300-9295",
-      email: "info@wcr-texas.com",
-      address: "2429 Bissonnet St., Suite 568, Houston, TX 77005",
-    },
-  },
-  "tucker-plumbing": {
-    name: "Tucker Plumbing LLC",
-    slug: "tucker-plumbing",
-    category: "Plumbing",
-    location: "Houston, TX",
-    colors: { primary: "#173B4D", primaryDark: "#102A37", accent: "#D97732" },
-    description:
-      "Tucker Plumbing LLC is a family-owned and operated plumbing company serving the greater Houston area for more than 20 years, providing residential, commercial, and institutional plumbing services with certified master plumbers.",
-    cta: { primary: "Get a Free Quote", secondary: "Call Now" },
-    contact: {
-      phone: "(281) 469-5354",
-      email: "service@tuckerplumbing.net",
-      address: "8219 Coolshire Ln, Houston, TX 77070",
-    },
-  },
-  "hg-roof-repair": {
-    name: "HG Roof Repair",
-    slug: "hg-roof-repair",
-    category: "Roofing",
-    location: "San Antonio, TX",
-    colors: {
-      primary: "#173B4D",
-      primaryDark: "#102A37",
-      accent: "#D97732",
-    },
-    description:
-      "HG Roof Repair is a locally owned San Antonio roofing company specializing in roof repairs, leak repair, missing shingles, storm damage, and roof inspections throughout San Antonio and Bexar County.",
-    cta: {
-      primary: "Get a Free Estimate",
-      secondary: "Call Now",
-    },
-    contact: {
-      phone: "(210) 396-0922",
-      email: "hugoroofer8888@gmail.com",
-      address: "345 N San Gabriel Ave, San Antonio, TX 78237",
-    },
-  },
-  "albright-roofing": {
-    name: "Albright Roofing",
-    slug: "albright-roofing",
-    category: "Roofing",
-    location: "Flint, TX",
-    colors: {
-      primary: "#173B4D",
-      primaryDark: "#102A37",
-      accent: "#D97732",
-    },
-    description:
-      "Albright Roofing is an East Texas roofing company with 16 years in business, providing residential roofing services with a focus on quality work, customer experience, financing, and dependable project completion.",
-    cta: {
-      primary: "Get a Free Inspection",
-      secondary: "Call Now",
-    },
-    contact: {
-      phone: "903-752-1444",
-      email: "info@roofingetx.com",
-      address:
-        "17968 Old Jacksonville Hwy, Bldg 10, #50, P.O. Box 242, Flint, TX 75762",
     },
   },
 };

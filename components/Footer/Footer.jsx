@@ -61,7 +61,7 @@ export default function Footer({ business, commons }) {
           </nav>
         </div>
 
-        <div>
+        {/* <div>
           <h3>Services</h3>
 
           <nav>
@@ -71,7 +71,7 @@ export default function Footer({ business, commons }) {
               </a>
             ))}
           </nav>
-        </div>
+        </div> */}
 
         <div>
           <h3>Contact</h3>
@@ -94,13 +94,7 @@ export default function Footer({ business, commons }) {
             )}
           </div>
 
-          {business.hours?.length > 0 && (
-            <div className={styles.hours}>
-              {business.hours.map((h) => (
-                <span key={h}>{h}</span>
-              ))}
-            </div>
-          )}
+          
         </div>
       </div>
 
